@@ -59,6 +59,15 @@ Formation en **gras** avec double *
 
 ```
 
+#MOdifie le message du commit precedent
+git commit --amend -m "Test"
+
+# Revenir sur le commit precedent et modiifer son contenu en ajoutant un file
+* git add monFIchier
+* git commit --amend
+
+# Qui a modifier ce fichier a cette ligne x
+* git blame
 
 
 ### du code avec 3 foi  `coller  le language 
