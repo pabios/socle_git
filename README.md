@@ -4,7 +4,9 @@
 
 1. liste ordonner 
 
---- ligne orizontal avec 3 tiret
+---
+___
+ ligne orizontal avec 3 tiret underscore
 Formation en **gras** avec double *
 
 ### du code avec 3 foi  `coller  le language 
