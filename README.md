@@ -19,7 +19,7 @@ Formation en **gras** avec double *
 ### les branche
 * elle s'appelle maintenant main au lieu de master sur github
 * git branch -v (branch en cours )
-* git rebase recuperer les elmt d'une branche a dans une branche b
+* git rebase recuperer les elmt d'une branche a dans une branche b en gardant l'historique des commit
 
 ### creer une branche 
 *git branch -b 
@@ -30,6 +30,13 @@ Formation en **gras** avec double *
 
 ### Revenir a un commit donner
 * git checkout plus l'identifiant du commit 
+* git checkout 56bfa580eabcde1e331a94aae28617ba9b803034
+
+# git stah 
+### garder les modification qu'on ne veut pas push
+*git stash nonFichier ==> garder les modification du fichier
+*git stash clear ==:> supprimer tout les stash
+
 
 
 
