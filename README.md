@@ -34,9 +34,30 @@ Formation en **gras** avec double *
 
 # git stah 
 ### garder les modification qu'on ne veut pas push
-*git stash nonFichier ==> garder les modification du fichier
+*git stash  ==> garder les modification du fichier
 *git stash clear ==:> supprimer tout les stash
+*git stash up ==> recuperer le fichier modifier et arregistrer dans stash
 
+
+# chapitre Submodule
+## definition: c'est un depot qui se trouve a l'interieur d'un autre depot 
+* permet de faire le lien entre deux depot distant 
+#### exemple on clone le ssh du depot Assembleur dans le debot courant 
+* du coup on pourait modifier les deux depot a la fois 
+
+
+# creer des alias
+* taper git config --global --edit
+* a l'interieur ajouter des alias 
+* exemple :
+```html
+[alias]
+        st = status
+        cb = checkout -b
+        last = log -1 HEAD # Affich le dernier commit
+
+
+```
 
 
 
