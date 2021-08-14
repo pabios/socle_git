@@ -7,8 +7,13 @@
 --- ligne orizontal avec 3 tiret
 Formation en **gras** avec double *
 
-### du code avec ` ` ` plus le language 
+### du code avec 3 foi  `coller  le language 
 ```html
-<html> </html>
+<html>
+<head> </head>
+<body>
+	<p> je suis un paragraphe </p>
+</body>
+ </html>
 
-[lien][http://guish.site] lien avec [ ecrire lien ][ et le lien ici ]
+[lien](http://guish.site) lien avec [ ecrire lien ](et le lien ici )
